@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/completed">
+
+    <TextView
+        android:id="@+id/txtWinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completed in 0 seconds"
+        android:textColor="#ff000000"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:textSize="24dp"
+        />
+
+</LinearLayout>
